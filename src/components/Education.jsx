@@ -1,18 +1,40 @@
 import React from 'react';
-import Section from './Section';
 
-export default function Education() {
+export default function Education({ data }) {
   return (
-    <Section title="Educación">
-      <div className="bg-white p-8 rounded-xl shadow-sm border-l-8 border-blue-600 flex flex-col md:flex-row justify-between items-center gap-4">
-        <div>
-          <h3 className="text-xl font-bold text-gray-900">Tecnicatura en Análisis de Sistemas de Computación</h3>
-          <p className="text-gray-600 text-lg">Instituto Superior del Milagro N°8207</p>
-        </div>
-        <div className="bg-blue-100 text-blue-800 font-bold px-6 py-2 rounded-full">
-          2024 – 2025
-        </div>
+    <section id="education" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+      {/* Título de la sección */}
+      <h2 className="mb-8 text-2xl font-bold tracking-tight text-slate-200 lg:text-3xl">
+        {data.title}
+      </h2>
+
+      {/* Línea de tiempo */}
+      <div className="relative border-l border-slate-800 ml-3">
+        {data.items.map((edu, idx) => (
+          <div key={idx} className="mb-12 ml-8 relative">
+            
+            {/* Punto en la línea */}
+            <span className="absolute -left-9.75 top-1.5 h-4 w-4 rounded-full border-2 border-slate-900 bg-teal-400 shadow-[0_0_0_4px_#0f172a]"></span>
+            
+            {/* Título del Título/Carrera */}
+            <h3 className="text-xl font-bold text-teal-400">
+              {edu.degree}
+            </h3>
+            
+            {/* Institución y Año */}
+            <div className="mb-2 text-sm font-semibold text-slate-500">
+              {edu.school} • {edu.year}
+            </div>
+
+            {/* Descripción (si existe en data.js) */}
+            {edu.description && (
+                <p className="text-base leading-relaxed text-slate-400">
+                {edu.description}
+                </p>
+            )}
+          </div>
+        ))}
       </div>
-    </Section>
+    </section>
   );
 }
