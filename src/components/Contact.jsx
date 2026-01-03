@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { Mail } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 
 export default function Contact({ data, email }) {
   const form = useRef();
@@ -39,14 +39,26 @@ export default function Contact({ data, email }) {
         {data.text}
       </p>
 
-      {/* Tu Email (Clickable) */}
-      <a 
-        href={`mailto:${email}`} 
-        className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors mb-12 font-medium"
-      >
-        <Mail size={20} />
-        {email}
-      </a>
+      {/* CONTENEDOR DE CONTACTO (Email y Teléfono alineados) */}
+      <div className="flex flex-wrap items-center gap-8 mb-12">
+        {/* Email */}
+        <a 
+          href={`mailto:${email}`} 
+          className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors font-medium"
+        >
+          <Mail size={20} />
+          {email}
+        </a>
+        
+        {/* Teléfono (Ahora a la derecha) */}
+        <a 
+          href={`tel:${data.Phone}`} 
+          className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors font-medium"
+        >
+          <Phone size={20} />
+          {data.Phone}
+        </a>
+      </div>
 
       {/* Formulario */}
       <form ref={form} onSubmit={sendEmail} className="space-y-6">

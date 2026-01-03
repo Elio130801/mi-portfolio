@@ -80,7 +80,8 @@ export const content = {
         btnSend: "Enviar Mensaje",
         btnSending: "Enviando...",
         successMsg: "¡Mensaje enviado con éxito! Te responderé pronto.",
-        errorMsg: "Hubo un error al enviar. Por favor intenta de nuevo."
+        errorMsg: "Hubo un error al enviar. Por favor intenta de nuevo.",
+        Phone: "3876317767"
     }
   },
   en: {
@@ -162,7 +163,8 @@ export const content = {
         btnSend: "Send Message",
         btnSending: "Sending...",
         successMsg: "Message sent successfully! I'll get back to you soon.",
-        errorMsg: "There was an error sending. Please try again."
+        errorMsg: "There was an error sending. Please try again.",
+        Phone: "3876317767"
     }
   }
 };
