@@ -2,7 +2,7 @@
 export const content = {
   es: {
     nav: ["Sobre mí", "Experiencia", "Educación", "Habilidades", "Contacto"],
-    role: "Técnico en Análisis de Sistemas | Desarrollador Full Stack",
+    role: "Analista de Sistemas | Desarrollador Full Stack",
     badge: "Disponible para trabajar",
     summary: "Desarrollador Full Stack con formación en Sistemas. Apasionado por crear soluciones tecnológicas innovadoras con experiencia en Python, React y bases de datos.",
     about: {
@@ -86,7 +86,7 @@ export const content = {
   },
   en: {
     nav: ["About", "Experience", "Education", "Skills", "Contact"],
-    role: "Full Stack Developer | DBA | Data Analyst",
+    role: "Systems Analyst | Full Stack Developer",
     badge: "Available for work",
     summary: "Full Stack Developer with a background in Systems Analysis. Passionate about creating innovative tech solutions with experience in Python, React, and databases.",
     about: {
