@@ -1,7 +1,8 @@
 // src/data.js
 export const content = {
   es: {
-    nav: ["Sobre mí", "Experiencia", "Educación", "Habilidades", "Contacto"],
+    // AGREGADO "Proyectos" EN LA POSICIÓN 3
+    nav: ["Sobre mí", "Experiencia", "Proyectos", "Educación", "Habilidades", "Contacto"], 
     role: "Analista de Sistemas | Desarrollador Full Stack",
     badge: "Disponible para trabajar",
     summary: "Desarrollador Full Stack con formación en Sistemas. Apasionado por crear soluciones tecnológicas innovadoras con experiencia en Python, React y bases de datos.",
@@ -26,6 +27,18 @@ export const content = {
             date: "Mar 2025 – Actualidad",
             desc: "Diseño y despliegue de una aplicación web dedicada a la venta de componentes informáticos, con interfaz dinámica y gestion de catálogo de productos.",
             technologies: ["React", "Node.js", "Python", "SQL"]
+        }
+      ]
+    },
+    // --- NUEVA SECCIÓN PROYECTOS (ESPAÑOL) ---
+    projects: {
+      title: "Proyectos",
+      items: [
+        {
+          title: "Sistema de Gestión Textil (ERP)",
+          description: "Plataforma completa para administrar la producción de prendas. Incluye control de stock de insumos, gestión de pedidos, gestión de perfiles de usuario y cálculo automático de costos.",
+          technologies: ["React", "Django", "MySQL", "Virtual Environments (VENV)", "React Native"],
+          link: "https://github.com/Elio130801/Proyecto-King-Importados" 
         }
       ]
     },
@@ -70,7 +83,6 @@ export const content = {
     contact: {
         title: "Contacto",
         text: "¿Tienes un proyecto en mente o quieres conversar? ¡Envíame un mensaje!",
-        // --- NUEVAS CLAVES DE TRADUCCIÓN (ESPAÑOL) ---
         labelName: "Nombre",
         labelEmail: "Email",
         labelMessage: "Mensaje",
@@ -85,7 +97,8 @@ export const content = {
     }
   },
   en: {
-    nav: ["About", "Experience", "Education", "Skills", "Contact"],
+    // AGREGADO "Projects" EN LA POSICIÓN 3
+    nav: ["About", "Experience", "Projects", "Education", "Skills", "Contact"],
     role: "Systems Analyst | Full Stack Developer",
     badge: "Available for work",
     summary: "Full Stack Developer with a background in Systems Analysis. Passionate about creating innovative tech solutions with experience in Python, React, and databases.",
@@ -110,6 +123,18 @@ export const content = {
             date: "Mar 2025 – Present",
             desc: "Design and deployment of a web application dedicated to the sale of computer components, with a dynamic interface and product catalog management.",
             technologies: ["React", "Node.js", "Python", "SQL"]
+        }
+      ]
+    },
+    // --- NUEVA SECCIÓN PROJECTS (INGLÉS) ---
+    projects: {
+      title: "Projects",
+      items: [
+        {
+          title: "Textile Management System (ERP)",
+          description: "A complete platform for managing garment production. Includes raw material inventory control, order management, user profile management, and automatic cost calculation.",
+          technologies: ["React", "Django", "MySQL", "Virtual Environments (VENV)", "React Native"],
+          link: "https://github.com/Elio130801/Proyecto-King-Importados" 
         }
       ]
     },
