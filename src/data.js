@@ -15,10 +15,10 @@ export const content = {
         title: "Experiencia",
         jobs: [
         {
-            role: "Desarrollador Full Stack",
+            role: "Analista de Sistemas | Desarrollador Full Stack",
             company: "Freelance / Proyecto Independiente",
             date: "Mar 2025 – Actualidad",
-            desc: "Desarrollo integral de una Plataforma para la fabricación de prendas masculinas, incluyendo módulos de gestion de pedidos y control de perfiles de usuario. Implementación de un motor de cálculo automatizado para determiner costos de fabricación en tiempo real, mejorando la precision financiera del proceso productivo.",
+            desc: "Desarrollo integral de una Plataforma para la fabricación de prendas masculinas, incluyendo módulos de gestion de pedidos y control de perfiles de usuario. Implementación de un motor de cálculo automatizado para determinar costos de fabricación en tiempo real, mejorando la precision financiera del proceso productivo.",
             technologies: ["React", "Node.js", "Python", "SQL", "Scrum", "Figma", "React Native", "Virtual Environments (VENV)"] 
         },
         {
@@ -97,7 +97,6 @@ export const content = {
     }
   },
   en: {
-    // AGREGADO "Projects" EN LA POSICIÓN 3
     nav: ["About", "Experience", "Projects", "Education", "Skills", "Contact"],
     role: "Systems Analyst | Full Stack Developer",
     badge: "Available for work",
@@ -111,7 +110,7 @@ export const content = {
         title: "Experience",
         jobs: [
         {
-            role: "Full Stack Developer",
+            role: "Systems Analyst | Full Stack Developer",
             company: "Freelance / Independent Project",
             date: "Mar 2025 – Present",
             desc: "Comprehensive development of a platform for men's clothing manufacturing, including order management and user profile control modules. Implementation of an automated calculation engine to determine manufacturing costs in real time, improving the financial accuracy of the production process.",
@@ -126,7 +125,6 @@ export const content = {
         }
       ]
     },
-    // --- NUEVA SECCIÓN PROJECTS (INGLÉS) ---
     projects: {
       title: "Projects",
       items: [
