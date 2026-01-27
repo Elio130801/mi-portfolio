@@ -17,14 +17,14 @@ export const content = {
         {
             role: "Analista de Sistemas | Desarrollador Full Stack",
             company: "Freelance / Proyecto Independiente",
-            date: "Mar 2025 – Actualidad",
+            date: "Mar 2025 – Dic 2025",
             desc: "Desarrollo integral de una Plataforma para la fabricación de prendas masculinas, incluyendo módulos de gestion de pedidos y control de perfiles de usuario. Implementación de un motor de cálculo automatizado para determinar costos de fabricación en tiempo real, mejorando la precision financiera del proceso productivo.",
             technologies: ["React", "Node.js", "Python", "SQL", "Scrum", "Figma", "React Native", "Virtual Environments (VENV)"] 
         },
         {
             role: "Desarrollador Full Stack",
             company: "Freelance / Proyecto Independiente",
-            date: "Mar 2025 – Actualidad",
+            date: "Mar 2025 – Dic 2025",
             desc: "Diseño y despliegue de una aplicación web dedicada a la venta de componentes informáticos, con interfaz dinámica y gestion de catálogo de productos.",
             technologies: ["React", "Node.js", "Python", "SQL"]
         }
@@ -68,15 +68,23 @@ export const content = {
             },
             {
                 name: "Frameworks & Librerías",
-                items: ["Spring Boot", "React.js", "Node.js", "Django", ".NET Framework", "Bootstrap", "Tailwind CSS", "React Native"]
+                items: ["Spring Boot", "React.js", "Node.js", "Django", ".NET Framework", "Bootstrap", "Tailwind CSS", "React Native", "Next.js", "Django REST Framework"]
             },
             {
                 name: "Bases de Datos",
-                items: ["MySQL", "Firebase", "Supabase"]
+                items: ["PostgreSQL", "MySQL", "Firebase", "Supabase"]
             },
             {
-                name: "DevOps & Cloud",
-                items: ["Virtual Environments (VENV)", "Linux", "Docker"]
+                name: "Herramientas & DevOps",
+                items: ["Docker", "GitHub", "Git", "Linux", "Bash", "Postman", "Virtual Environments (VENV)"]
+            },
+            {
+                name: "Habilidades Técnicas",
+                items: ["UML (Lenguaje Unificado de Modelado)", "Diagramas de Flujo", "Diagramas de Entidad-Relación"]
+            },
+            {
+                name: "Metodologías",
+                items: ["Scrum",]
             }
         ]
     },
@@ -112,14 +120,14 @@ export const content = {
         {
             role: "Systems Analyst | Full Stack Developer",
             company: "Freelance / Independent Project",
-            date: "Mar 2025 – Present",
+            date: "Mar 2025 – Dec 2025",
             desc: "Comprehensive development of a platform for men's clothing manufacturing, including order management and user profile control modules. Implementation of an automated calculation engine to determine manufacturing costs in real time, improving the financial accuracy of the production process.",
             technologies: ["React", "Node.js", "Python", "SQL", "Scrum", "Figma", "React Native", "Virtual Environments (VENV)"]
         },
         {
             role: "Full Stack Developer",
             company: "Freelance / Independent Project",
-            date: "Mar 2025 – Present",
+            date: "Mar 2025 – Dec 2025",
             desc: "Design and deployment of a web application dedicated to the sale of computer components, with a dynamic interface and product catalog management.",
             technologies: ["React", "Node.js", "Python", "SQL"]
         }
@@ -162,15 +170,23 @@ export const content = {
             },
             {
                 name: "Frameworks & Libraries",
-                items: ["Spring Boot", "React.js", "Node.js", "Django", ".NET Framework", "Bootstrap", "Tailwind CSS", "React Native"]
+                items: ["Spring Boot", "React.js", "Node.js", "Django", ".NET Framework", "Bootstrap", "Tailwind CSS", "React Native", "Next.js", "Django REST Framework"]
             },
             {
                 name: "Databases",
-                items: ["MySQL", "Firebase", "Supabase"]
+                items: ["PostgreSQL", "MySQL", "Firebase", "Supabase"]
             },
             {
-                name: "DevOps & Cloud",
-                items: ["Virtual Environments (VENV)", "Linux", "Docker"]
+                name: "Tools & DevOps",
+                items: ["Docker", "GitHub", "Git", "Linux", "Bash", "Postman", "Virtual Environments (VENV)"]
+            },
+            {
+                name: "Technical Skills",
+                items: ["UML (Unified Modeling Language)", "Flowcharts", "Entity-Relationship Diagrams"]
+            },
+            {
+                name: "Methodologies",
+                items: ["Scrum",]
             }
         ]
     },
