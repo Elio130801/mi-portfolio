@@ -27,6 +27,13 @@ export const content = {
             date: "Mar 2025 – Dic 2025",
             desc: "Diseño y despliegue de una aplicación web dedicada a la venta de componentes informáticos, con interfaz dinámica y gestion de catálogo de productos.",
             technologies: ["React", "Node.js", "Python", "SQL"]
+        },
+        {
+            role: "Analista de Sistemas y Desarrollador Web",
+            company: "Freelance - Proyecto Independiente",
+            date: "Ene 2026 — Presente",
+            desc: "Liderando el desarrollo integral (Full Stack) de una plataforma SaaS para la gestión de flotas mineras. Realicé el relevamiento de requerimientos para digitalizar procesos de checklists pre-operacionales y mantenimiento. Diseñé la arquitectura de base de datos en PostgreSQL y desarrollé una API REST segura con Django. Implementé el frontend reactivo con reportes en tiempo real.",
+            technologies: ["React", "Django REST", "PostgreSQL", "Tailwind CSS", "JWT Authentication", "Cloudinary", "Virtual Environments (VENV)",]
         }
       ]
     },
@@ -136,7 +143,14 @@ export const content = {
             date: "Mar 2025 – Dec 2025",
             desc: "Design and deployment of a web application dedicated to the sale of computer components, with a dynamic interface and product catalog management.",
             technologies: ["React", "Node.js", "Python", "SQL"]
-        }
+        },
+        {
+            role: "Systems Analyst & Web Developer",
+            company: "Freelance - Independent Project",
+            date: "Jan 2026 — Present",
+            desc: "Leading the end-to-end development of a SaaS solution for mining fleet logistics. Translated complex operational requirements into a digital checklist system. Architected the PostgreSQL database and developed a secure REST API using Django. Built a responsive dashboard using React and Tailwind CSS for real-time fleet monitoring.",
+            technologies: ["React", "Django REST", "PostgreSQL", "Tailwind CSS", "JWT Authentication", "Cloudinary", "Virtual Environments (VENV)",]
+        },
       ]
     },
     projects: {
