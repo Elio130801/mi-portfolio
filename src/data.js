@@ -39,6 +39,12 @@ export const content = {
           description: "Plataforma completa para administrar la producción de prendas. Incluye control de stock de insumos, gestión de pedidos, gestión de perfiles de usuario y cálculo automático de costos.",
           technologies: ["React", "Django", "MySQL", "Virtual Environments (VENV)", "React Native"],
           link: "https://github.com/Elio130801/Proyecto-King-Importados" 
+        },
+        {
+            title: "Sistema de Gestión de Flotas Mineras",
+            description: "Plataforma SaaS diseñada para empresas de servicios mineros. Digitaliza el control de vehículos mediante checklists pre-operacionales, gestiona planes de mantenimiento preventivo y almacena evidencia fotográfica en la nube. Incluye dashboard de alertas en tiempo real.",
+            technologies: ["React", "Django REST", "PostgreSQL", "Tailwind CSS", "Cloudinary", "Virtual Environments (VENV)", "JWT Authentication"],
+            link: "https://github.com/Elio130801/Checklist_Frontend",
         }
       ]
     },
@@ -141,7 +147,13 @@ export const content = {
           description: "A complete platform for managing garment production. Includes raw material inventory control, order management, user profile management, and automatic cost calculation.",
           technologies: ["React", "Django", "MySQL", "Virtual Environments (VENV)", "React Native"],
           link: "https://github.com/Elio130801/Proyecto-King-Importados" 
-        }
+        },
+        {
+            title: "Mining Fleet Management System",
+            description: "SaaS platform designed for mining service companies. Digitizes vehicle control through pre-operational checklists, manages preventive maintenance plans, and stores photographic evidence in the cloud. Features a real-time alert dashboard.",
+            technologies: ["React", "Django REST", "PostgreSQL", "Tailwind CSS", "Cloudinary", "Virtual Environments (VENV)", "JWT Authentication"],
+            link: "https://github.com/Elio130801/Checklist_Frontend" 
+        },
       ]
     },
     education: {
