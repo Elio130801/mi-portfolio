@@ -15,21 +15,21 @@ export const content = {
         title: "Experiencia",
         jobs: [
         {
-            role: "Analista de Sistemas | Desarrollador Full Stack",
+            role: "Sistema ERP de Gestión Textil",
             company: "Freelance / Proyecto Independiente",
             date: "Mar 2025 – Dic 2025",
             desc: "Desarrollo integral de una Plataforma para la fabricación de prendas masculinas, incluyendo módulos de gestion de pedidos y control de perfiles de usuario. Implementación de un motor de cálculo automatizado para determinar costos de fabricación en tiempo real, mejorando la precision financiera del proceso productivo.",
             technologies: ["React", "Node.js", "Python", "SQL", "Scrum", "Figma", "React Native", "Virtual Environments (VENV)"] 
         },
         {
-            role: "Desarrollador Full Stack",
+            role: "E-commerce de Hardware y Tecnología",
             company: "Freelance / Proyecto Independiente",
             date: "Mar 2025 – Dic 2025",
             desc: "Diseño y despliegue de una aplicación web dedicada a la venta de componentes informáticos, con interfaz dinámica y gestion de catálogo de productos.",
             technologies: ["React", "Node.js", "Python", "SQL"]
         },
         {
-            role: "Analista de Sistemas y Desarrollador Web",
+            role: "Plataforma SaaS para Logística Minera",
             company: "Freelance - Proyecto Independiente",
             date: "Ene 2026 — Presente",
             desc: "Liderando el desarrollo integral (Full Stack) de una plataforma SaaS para la gestión de flotas mineras. Realicé el relevamiento de requerimientos para digitalizar procesos de checklists pre-operacionales y mantenimiento. Diseñé la arquitectura de base de datos en PostgreSQL y desarrollé una API REST segura con Django. Implementé el frontend reactivo con reportes en tiempo real.",
@@ -51,7 +51,13 @@ export const content = {
             title: "Sistema de Gestión de Flotas Mineras",
             description: "Plataforma SaaS diseñada para empresas de servicios mineros. Digitaliza el control de vehículos mediante checklists pre-operacionales, gestiona planes de mantenimiento preventivo y almacena evidencia fotográfica en la nube. Incluye dashboard de alertas en tiempo real.",
             technologies: ["React", "Django REST", "PostgreSQL", "Tailwind CSS", "Cloudinary", "Virtual Environments (VENV)", "JWT Authentication"],
-            link: "https://github.com/Elio130801/Checklist_Frontend",
+            link: "",
+        },
+        {
+            title: "TechStore - Landing Page",
+            description: "Landing page moderna diseñada para una tienda de tecnología. El proyecto destaca por su diseño Dark UI inmersivo, integración de efectos de luz interactivos (Mouse Spotlight) y componentes de vidrio (Glassmorphism). Totalmente responsiva y optimizada para SEO y performance. Incluye catálogo dinámico con \"Infinite Scroll\" y secciones de contacto integradas.",
+            technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+            link: "https://github.com/Elio130801/techstore-landing"
         }
       ]
     },
@@ -77,7 +83,7 @@ export const content = {
         categories: [
             {
                 name: "Lenguajes",
-                items: ["PHP", "Python", "JavaScript", "SQL", "HTML/CSS"]
+                items: ["PHP", "Python", "JavaScript", "TypeScript", "SQL", "HTML/CSS"]
             },
             {
                 name: "Frameworks & Librerías",
@@ -131,21 +137,21 @@ export const content = {
         title: "Experience",
         jobs: [
         {
-            role: "Systems Analyst | Full Stack Developer",
+            role: "Textile Production ERP System",
             company: "Freelance / Independent Project",
             date: "Mar 2025 – Dec 2025",
             desc: "Comprehensive development of a platform for men's clothing manufacturing, including order management and user profile control modules. Implementation of an automated calculation engine to determine manufacturing costs in real time, improving the financial accuracy of the production process.",
             technologies: ["React", "Node.js", "Python", "SQL", "Scrum", "Figma", "React Native", "Virtual Environments (VENV)"]
         },
         {
-            role: "Full Stack Developer",
+            role: "Hardware & Tech E-commerce",
             company: "Freelance / Independent Project",
             date: "Mar 2025 – Dec 2025",
             desc: "Design and deployment of a web application dedicated to the sale of computer components, with a dynamic interface and product catalog management.",
             technologies: ["React", "Node.js", "Python", "SQL"]
         },
         {
-            role: "Systems Analyst & Web Developer",
+            role: "SaaS Platform for Mining Logistics",
             company: "Freelance - Independent Project",
             date: "Jan 2026 — Present",
             desc: "Leading the end-to-end development of a SaaS solution for mining fleet logistics. Translated complex operational requirements into a digital checklist system. Architected the PostgreSQL database and developed a secure REST API using Django. Built a responsive dashboard using React and Tailwind CSS for real-time fleet monitoring.",
@@ -166,8 +172,14 @@ export const content = {
             title: "Mining Fleet Management System",
             description: "SaaS platform designed for mining service companies. Digitizes vehicle control through pre-operational checklists, manages preventive maintenance plans, and stores photographic evidence in the cloud. Features a real-time alert dashboard.",
             technologies: ["React", "Django REST", "PostgreSQL", "Tailwind CSS", "Cloudinary", "Virtual Environments (VENV)", "JWT Authentication"],
-            link: "https://github.com/Elio130801/Checklist_Frontend" 
+            link: "" 
         },
+        {
+            title: "TechStore - Landing Page",
+            description: "Modern landing page designed for a tech store. The project features an immersive Dark UI design, integration of interactive light effects (Mouse Spotlight), and glass-like components (Glassmorphism). Fully responsive and optimized for SEO and performance. Includes a dynamic catalog with \"Infinite Scroll\" and integrated contact sections.",
+            technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+            link: "https://github.com/Elio130801/techstore-landing"
+        }
       ]
     },
     education: {
@@ -192,7 +204,7 @@ export const content = {
         categories: [
             {
                 name: "Languages",
-                items: ["PHP", "Python", "JavaScript", "SQL", "HTML/CSS"]
+                items: ["PHP", "Python", "JavaScript", "TypeScript", "SQL", "HTML/CSS"]
             },
             {
                 name: "Frameworks & Libraries",
