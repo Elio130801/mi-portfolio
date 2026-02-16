@@ -2,3 +2,20 @@
 html {
     scroll-behavior: smooth;
 }
+/* src/index.css */
+
+/* Definimos el giro 3D aquí directamente */
+@keyframes spin-y {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Creamos la clase manualmente */
+.animate-spin-slow-3d {
+  animation: spin-y 6s linear infinite;
+  transform-style: preserve-3d; /* Mejora el efecto 3D */
+}

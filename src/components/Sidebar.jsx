@@ -10,11 +10,14 @@ export default function Sidebar({ t, lang, setLang }) {
         
         {/* LOGO Y NOMBRE */}
         <div className="flex items-center gap-4 mb-4">
-          <img 
-            src="/favicon.svg" 
-            alt="Logo ES" 
-            className="w-16 h-16 animate-pulse" 
-          />
+          <div className="perspective-[1000px]">
+            <img 
+              src="/favicon.svg" 
+              alt="Logo ES" 
+              // APLICAMOS LA ANIMACIÓN AQUÍ:
+              className="w-16 h-16 animate-spin-slow-3d drop-shadow-[0_0_15px_rgba(45,212,191,0.5)]" 
+            />
+          </div>
           <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
             Elio Tomas Suffi
           </h1>
