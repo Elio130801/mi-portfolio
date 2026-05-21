@@ -15,11 +15,11 @@ export const content = {
         title: "Experiencia",
         jobs: [
         {
-            role: "Sistema ERP de Gestión Textil",
-            company: "Freelance / Proyecto Independiente",
-            date: "Mar 2025 – Dic 2025",
-            desc: "Desarrollo integral de una Plataforma para la fabricación de prendas masculinas, incluyendo módulos de gestion de pedidos y control de perfiles de usuario. Implementación de un motor de cálculo automatizado para determinar costos de fabricación en tiempo real, mejorando la precision financiera del proceso productivo.",
-            technologies: ["React", "Node.js", "Python", "SQL", "Scrum", "Figma", "React Native", "Virtual Environments (VENV)"] 
+            role: "Plataforma SaaS para Logística Minera",
+            company: "Freelance - Proyecto Independiente",
+            date: "Ene 2026 — Presente",
+            desc: "Liderando el desarrollo integral (Full Stack) de una plataforma SaaS para la gestión de flotas mineras. Realicé el relevamiento de requerimientos para digitalizar procesos de checklists pre-operacionales y mantenimiento. Diseñé la arquitectura de base de datos en PostgreSQL y desarrollé una API REST segura con Django. Implementé el frontend reactivo con reportes en tiempo real.",
+            technologies: ["React", "Django REST", "PostgreSQL", "Tailwind CSS", "JWT Authentication", "Cloudinary", "Virtual Environments (VENV)",]
         },
         {
             role: "E-commerce de Hardware y Tecnología",
@@ -29,11 +29,11 @@ export const content = {
             technologies: ["React", "Node.js", "Python", "SQL"]
         },
         {
-            role: "Plataforma SaaS para Logística Minera",
-            company: "Freelance - Proyecto Independiente",
-            date: "Ene 2026 — Presente",
-            desc: "Liderando el desarrollo integral (Full Stack) de una plataforma SaaS para la gestión de flotas mineras. Realicé el relevamiento de requerimientos para digitalizar procesos de checklists pre-operacionales y mantenimiento. Diseñé la arquitectura de base de datos en PostgreSQL y desarrollé una API REST segura con Django. Implementé el frontend reactivo con reportes en tiempo real.",
-            technologies: ["React", "Django REST", "PostgreSQL", "Tailwind CSS", "JWT Authentication", "Cloudinary", "Virtual Environments (VENV)",]
+            role: "Sistema ERP de Gestión Textil",
+            company: "Freelance / Proyecto Independiente",
+            date: "Mar 2025 – Dic 2025",
+            desc: "Desarrollo integral de una Plataforma para la fabricación de prendas masculinas, incluyendo módulos de gestion de pedidos y control de perfiles de usuario. Implementación de un motor de cálculo automatizado para determinar costos de fabricación en tiempo real, mejorando la precision financiera del proceso productivo.",
+            technologies: ["React", "Node.js", "Python", "SQL", "Scrum", "Figma", "React Native", "Virtual Environments (VENV)"] 
         }
       ]
     },
