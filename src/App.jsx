@@ -15,6 +15,10 @@ export default function App() {
   const t = content[lang]; 
 
   useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
+
+  useEffect(() => {
     const handleScroll = () => {
       const sections = ['about', 'experience', 'projects', 'education', 'skills', 'contact'];
       for (const section of sections) {
@@ -53,7 +57,7 @@ return (
               <Contact data={t.contact} email="suffielio1@gmail.com" />
               
               <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
-                <p>© 2025 Elio Tomas Suffi. All rights reserved. v1.1.0.</p>
+                <p>{t.footer}</p>
               </footer>
             </main>
             

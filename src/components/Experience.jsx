@@ -27,10 +27,24 @@ export default function Experience({ data }) {
               {job.company} • {job.date}
             </div>
 
-            {/* Descripción */}
-            <p className="mb-4 text-base leading-relaxed text-slate-400">
-              {job.desc}
-            </p>
+            {/* Descripción (opcional) */}
+            {job.desc && (
+              <p className="mb-4 text-base leading-relaxed text-slate-400">
+                {job.desc}
+              </p>
+            )}
+
+            {/* Viñetas (igual que el CV): { label?, text } */}
+            {job.bullets && (
+              <ul className="mb-4 list-disc space-y-2 pl-5 text-base leading-relaxed text-slate-400 marker:text-teal-400">
+                {job.bullets.map((b, bIdx) => (
+                  <li key={bIdx}>
+                    {b.label && <span className="font-semibold text-slate-200">{b.label}: </span>}
+                    {b.text}
+                  </li>
+                ))}
+              </ul>
+            )}
 
             {/* TAGS / TECNOLOGÍAS (Estilo píldora verde) */}
             {job.technologies && (

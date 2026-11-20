@@ -48,7 +48,7 @@ export default function Projects({ data }) {
                     ) : (
                       <div className="flex items-center gap-2 text-slate-400 font-semibold uppercase tracking-wide text-xs">
                         <Lock size={24} className="text-slate-400" />
-                        <span>Privado</span>
+                        <span>{data.privateLabel || 'Privado'}</span>
                       </div>
                     )}
 

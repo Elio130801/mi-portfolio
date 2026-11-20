@@ -13,7 +13,7 @@ export default function Sidebar({ t, lang, setLang }) {
           <div className="perspective-[1000px]">
             <img 
               src="/favicon.svg" 
-              alt="Logo ES" 
+              alt="Logo Elio Tomas Suffi" 
               // APLICAMOS LA ANIMACIÓN AQUÍ:
               className="w-16 h-16 animate-spin-slow-3d drop-shadow-[0_0_15px_rgba(45,212,191,0.5)]" 
             />
